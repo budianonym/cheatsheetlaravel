@@ -111,3 +111,7 @@ export default {
 }
 // app.js
 Vue.component('example-component', require('./components/ExampleComponent.vue').default);
+
+// date format
+$date = DateTime::createFromFormat('d/m/y', $model['date']);
+                        $tgl = $date->format('Y-m-d');
