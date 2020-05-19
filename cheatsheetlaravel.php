@@ -115,3 +115,7 @@ Vue.component('example-component', require('./components/ExampleComponent.vue').
 // date format
 $date = DateTime::createFromFormat('d/m/y', $model['date']);
                         $tgl = $date->format('Y-m-d');
+// string
+echo str_replace("world","Peter","Hello world!");
+$last_no = 123456789;
+echo str_pad($last_no, 13, "0", STR_PAD_LEFT);
