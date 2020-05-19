@@ -119,3 +119,4 @@ $date = DateTime::createFromFormat('d/m/y', $model['date']);
 echo str_replace("world","Peter","Hello world!");
 $last_no = 123456789;
 echo str_pad($last_no, 13, "0", STR_PAD_LEFT);
+preg_replace("/[\-\.\,]/", "", $seller->seller_npwp)
